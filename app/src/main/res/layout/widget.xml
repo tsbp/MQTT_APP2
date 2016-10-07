@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+                    android:id="@+id/doorBackground">
+
+                        <ImageView
+                            android:src="@drawable/door_closed"
+                            android:layout_width="80dp"
+                            android:id="@+id/imgDoor"
+                            android:cropToPadding="false"
+                            android:layout_height="80dp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:src="@drawable/intru"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/intruder"
+                    android:visibility="invisible"
+
+                    />
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true">
+
+                        <ImageView
+                            android:src="@drawable/security_on"
+                            android:layout_width="80dp"
+                            android:id="@+id/imgAlarm"
+                            android:cropToPadding="false"
+                            android:layout_height="80dp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                </RelativeLayout>
+
+
+        <!--TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" /-->
+</RelativeLayout>

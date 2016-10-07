@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d78be4acb2e07b0d5998e449ac2ff37ea810023">
+        <dex dex="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_205f17ba4e98fcf1fb141ab1bcdafd266dfe3f6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9d35c3181d24130cf792803d10e55645705dabb4">
+        <dex dex="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\app\build\intermediates\pre-dexed\debug\instant-run_69b0faea7652bccef3324eb2f34ddd5ea952c031.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\lib\org.eclipse.paho.client.mqttv3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="70c9dff60110bef9c7eab821f0c45e50df24415d">
+        <dex dex="G:\Voodoo\Android\AndroidStudio\MQTT_APP2\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3_2f08c30048b1aa9760d2366c6840fe75191fbcb8.jar" />
+    </item>
+
+</items>
